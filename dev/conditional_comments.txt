@@ -1,0 +1,5 @@
+<!--[if IE]> {code} <![endif]-->
+
+<!--[if lt IE 7]> {code} <![endif]-->
+
+<!--[if !IE]><!--> {code} <!--<![endif]-->

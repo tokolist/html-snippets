@@ -1,0 +1,270 @@
+@charset "utf-8";
+
+/* Reset
+================================================*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+
+th, td {
+	text-align: left;
+	vertical-align: top;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+
+blockquote, q {
+	quotes: "" "";
+}
+
+/* HTML5
+================================================*/
+
+abbr, article, aside, audio, canvas, details, figcaption,
+figure, footer, header, hgroup, mark, meter, nav, output, 
+progress, section, summary, time, video {
+	display:block;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+/* Safe fonts
+================================================*/
+
+/* 
+[99% computers]
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	
+[98% computers]
+	font-family: "Courier New", Courier, "Andale Mono", monospace;
+	
+[97% computers]
+	font-family: Times, "Times New Roman", Georgia, serif;
+	font-family: Georgia, Palatino, "Palatino Linotype", Times, "Times New Roman", serif;
+	font-family: Tahoma, Geneva, Verdana, sans-serif;
+	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Sans", Arial, sans-serif;
+
+[96% computers]
+	font-family: Impact, Haeltenschweiler, "Arial Narrow Bold", Charcoal, sans-serif;
+
+[95% computers]
+	font-family: "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+	
+[94% computers]
+	font-family: Palatino, "Palatino Linotype", Georgia, Times, "Times New Roman", serif;
+	
+[86% computers]
+	font-family: "Arial Narrow", Arial, sans-serif;
+	
+[84% computers]
+	font-family: "Century Gothic", "Apple Gothic", sans-serif;
+*/
+
+/* Debug
+================================================*/
+
+/*
+* { outline: 2px dotted red }
+* * { outline: 2px dotted green }
+* * * { outline: 2px dotted orange }
+* * * * { outline: 2px dotted blue }
+* * * * * { outline: 1px solid red }
+* * * * * * { outline: 1px solid green }
+* * * * * * * { outline: 1px solid orange }
+* * * * * * * * { outline: 1px solid blue }
+*/
+
+/* Headings
+================================================*/
+
+h1, h2, h3, h4, h5, h6 {
+	/**/
+}
+
+h1 {
+	/**/
+}
+
+h2 {
+	/**/
+}
+
+h3 {	
+	/**/
+}
+
+h4 {
+	/**/
+}
+
+h5 {
+	/**/
+}
+
+h6 {
+	/**/
+}
+
+/* Links
+================================================*/
+
+a {
+	color: #00f;
+}
+
+a:link {
+	/**/
+}
+
+a:visited {
+	/**/
+}
+
+a:hover {
+	/**/
+}
+
+a:active {
+	/**/
+}
+
+/* Misc
+================================================*/
+
+/* Paragraphs
+================================================*/
+
+p {
+	/**/
+}
+
+/* Lists
+================================================*/
+
+ol {
+	/**/
+}
+
+ul {
+	/**/
+}
+
+/* Tables
+================================================*/
+
+table {
+	/**/
+}
+
+/* Form
+================================================*/
+
+form {
+	/**/
+}
+
+/* Clearfix
+================================================*/
+
+.clearfix:after {
+	content:"."; 
+	display:block; 
+	height:0; 
+	clear:both; 
+	visibility:hidden;
+}
+
+.clearfix {
+	display:inline-block;
+}
+
+.clearfix {
+	display:block;
+}
+
+* html .clearfix {
+	height: 1%;
+}
+
+.clear{
+	height: 0; 
+	font-size: 0;
+	line-height: 0;
+	clear: both; 
+	overflow: hidden;
+}
+
+.clear_both {
+	clear: both;
+}
+
+
+/* Layout
+================================================*/
+
+html {
+	font-size: 100.01%
+}
+
+body {
+	background: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1;
+	color: #000;
+	font-size: 62.5%;
+
+	/*margin: 0 auto;
+	min-width: 980px;
+	max-width: 1500px;*/
+}
+
+/* Header */
+
+/* Menu */
+
+/* Content */
+
+/* Footer */
