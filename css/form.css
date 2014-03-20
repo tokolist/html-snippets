@@ -1,6 +1,10 @@
 @charset "utf-8";
 
-button::-moz-focus-inner {
+.buttonfix::-moz-focus-inner {
 	margin: 0;
 	padding: 0;
+}
+
+.buttonfix {
+	overflow: visible; /* For IE */
 }

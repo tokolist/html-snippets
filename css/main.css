@@ -241,20 +241,24 @@ form {
 	clear: both;
 }
 
+.block_clearfix {
+	overflow: hidden;
+	zoom: 1;
+}
 
 /* Layout
 ================================================*/
 
-html {
+/*html {
 	font-size: 100.01%
-}
+}*/
 
 body {
 	background: #fff;
 	font-family: Arial, Helvetica, sans-serif;
 	line-height: 1;
 	color: #000;
-	font-size: 62.5%;
+	/*font-size: 62.5%;*/
 
 	/*margin: 0 auto;
 	min-width: 980px;
