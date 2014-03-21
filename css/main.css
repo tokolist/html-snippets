@@ -210,7 +210,8 @@ form {
 	overflow: visible; /* For IE */
 }
 
-.buttonfix::-moz-focus-inner {
+.buttonfix::-moz-focus-inner,
+.inputfix::-moz-focus-inner {
 	margin: 0;
 	padding: 0;
 }
@@ -272,6 +273,7 @@ body {
 	line-height: 1;
 	color: #000;
 	/*font-size: 62.5%;*/
+	font-size: 12px;
 
 	/*margin: 0 auto;
 	min-width: 980px;
