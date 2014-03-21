@@ -206,6 +206,15 @@ form {
 	/**/
 }
 
+.buttonfix {
+	overflow: visible; /* For IE */
+}
+
+.buttonfix::-moz-focus-inner {
+	margin: 0;
+	padding: 0;
+}
+
 /* Clearfix
 ================================================*/
 
@@ -253,6 +262,10 @@ form {
 	font-size: 100.01%
 }*/
 
+html.ie6 {
+	filter: expression(this.style.filter = '', document.execCommand('BackgroundImageCache', false, true));
+}
+
 body {
 	background: #fff;
 	font-family: Arial, Helvetica, sans-serif;
@@ -264,6 +277,12 @@ body {
 	min-width: 980px;
 	max-width: 1500px;*/
 }
+
+/*.ie6 body {
+	width: expression((documentElement.clientWidth || body.clientWidth) < 980 ? '980px' : 'auto');
+
+	width: expression((documentElement.clientWidth || body.clientWidth) < 980 ? '980px' : (documentElement.clientWidth || body.clientWidth) > 1500 ? '1500px' : 'auto');
+}*/
 
 /* Header */
 
