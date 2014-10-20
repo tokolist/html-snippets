@@ -1,0 +1,39 @@
+/* Clearfix
+================================================*/
+
+.clearfix:after {
+	content:"."; 
+	display:block; 
+	height:0; 
+	clear:both; 
+	visibility:hidden;
+}
+
+.clearfix {
+	display:inline-block;
+}
+
+.clearfix {
+	display:block;
+}
+
+* html .clearfix {
+	height: 1%;
+}
+
+.clear{
+	height: 0; 
+	font-size: 0;
+	line-height: 0;
+	clear: both; 
+	overflow: hidden;
+}
+
+.clear_both {
+	clear: both;
+}
+
+.block_clearfix {
+	overflow: hidden;
+	zoom: 1;
+}
