@@ -1,24 +1,22 @@
 /* Clearfix
 ================================================*/
 
-.clearfix:after {
-	content:"."; 
-	display:block; 
-	height:0; 
-	clear:both; 
-	visibility:hidden;
-}
-
-.clearfix {
-	display:inline-block;
-}
-
 .clearfix {
 	display:block;
+	
+	&:after {
+		content:"."; 
+		display:block; 
+		height:0; 
+		clear:both; 
+		visibility:hidden;
+	}
 }
 
-* html .clearfix {
-	height: 1%;
+@include ie6-only {
+	.clearfix {
+		height: 1%;
+	}
 }
 
 .clear{
@@ -29,11 +27,7 @@
 	overflow: hidden;
 }
 
-.clear_both {
-	clear: both;
-}
-
-.block_clearfix {
+@mixin block-clearfix {
 	overflow: hidden;
 	zoom: 1;
 }

@@ -17,6 +17,9 @@ progress, section, summary, time, dialog, main {
 
 audio, canvas, video {
     display: inline-block;
-    *display: inline;
-    *zoom: 1;
+
+	@include ie6-only {
+		display: inline;
+		zoom: 1;
+	}
 }

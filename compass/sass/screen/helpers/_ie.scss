@@ -1,0 +1,11 @@
+@mixin ie6-only {
+	@if & {
+		html.ie6 & {
+			@content;
+		}
+	} @else {
+		html.ie6 {
+			@content;
+		}
+	}
+}
