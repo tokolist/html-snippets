@@ -1,14 +1,16 @@
-/* Debug
-================================================*/
+// Debug
+// --------------------------------------------------
 
-$outlineStyles: 2px dotted, 1px solid;
-$outlineColors: red, green, orange, blue;
+@mixin debug-outline {
+	$outlineStyles: 2px dotted, 1px solid;
+	$outlineColors: red, green, orange, blue;
 
-$selector: '';
-	
-@each $outlineStyle in $outlineStyles {
-	@each $outlineColor in $outlineColors {
-		$selector: $selector + '* ';
-		#{$selector}{ outline: $outlineStyle $outlineColor }
+	$selector: '';
+
+	@each $outlineStyle in $outlineStyles {
+		@each $outlineColor in $outlineColors {
+			$selector: $selector + '* ';
+			#{$selector}{ outline: $outlineStyle $outlineColor }
+		}
 	}
 }
