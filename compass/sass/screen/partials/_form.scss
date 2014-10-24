@@ -7,10 +7,10 @@ form {
 
 .buttonfix {
 	overflow: visible; /* For IE */
-}
 
-.buttonfix::-moz-focus-inner,
-.inputfix::-moz-focus-inner {
-	margin: 0;
-	padding: 0;
+	&::-moz-focus-inner,
+	&::-moz-focus-inner {
+		margin: 0;
+		padding: 0;
+	}
 }
