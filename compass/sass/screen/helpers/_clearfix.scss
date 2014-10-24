@@ -11,10 +11,8 @@
 		clear:both; 
 		visibility:hidden;
 	}
-}
-
-@include ie6-only {
-	.clearfix {
+	
+	@include ie6-only {
 		height: 1%;
 	}
 }
