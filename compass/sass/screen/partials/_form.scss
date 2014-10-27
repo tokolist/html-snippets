@@ -5,7 +5,7 @@ form {
 	/**/
 }
 
-.buttonfix {
+@mixin buttonfix {
 	overflow: visible; /* For IE */
 
 	&::-moz-focus-inner,
