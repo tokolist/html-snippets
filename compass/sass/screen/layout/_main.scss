@@ -20,7 +20,7 @@ body {
 	@if $font-relative-size {
 		font-size: 62.5%;
 	} @else {
-		font-size: 12px;
+		font-size: $base-font-size;
 	}
 	
 	@if $body-align-center { margin: 0 auto; }
