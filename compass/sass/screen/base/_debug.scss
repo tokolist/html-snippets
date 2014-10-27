@@ -2,15 +2,15 @@
 // --------------------------------------------------
 
 @mixin debug-outline {
-	$outlineStyles: 2px dotted, 1px solid;
-	$outlineColors: red, green, orange, blue;
+	$outline-styles: 2px dotted, 1px solid;
+	$outline-colors: red, green, orange, blue;
 
 	$selector: '';
 
-	@each $outlineStyle in $outlineStyles {
-		@each $outlineColor in $outlineColors {
+	@each $outline-style in $outline-styles {
+		@each $outline-color in $outline-colors {
 			$selector: $selector + '* ';
-			#{$selector}{ outline: $outlineStyle $outlineColor }
+			#{$selector}{ outline: $outline-style $outline-color }
 		}
 	}
 }
